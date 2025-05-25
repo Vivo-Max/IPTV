@@ -2,7 +2,7 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '45 21 * * *'  # 每天 21:45 (Asia/Shanghai)
+    #- cron: '45 21 * * *'  # 每天 21:45 (Asia/Shanghai)
   workflow_dispatch:
     branches:
       - main
